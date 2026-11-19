@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vibite - Your Food, Your Vibe</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Vibite<span>.</span>🍝</h1>
+
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="restaurants.html">Explore</a>
+                <a href="chatbot.html">AI Assistant</a>
+                <a href="favorites.html">Favourites ❤️</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <p class="tagline">YOUR FOOD, YOUR VIBE</p>
+
+        <h2>What are you craving?</h2>
+
+        <p class="hero-description">
+            Discover restaurants that match your taste, mood and vibe.
+        </p>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Try 'peaceful place with healthy food'..."
+            >
+
+            <button id="searchButton">Find My Place</button>
+        </div>
+
+    </section>
+
+    
+<!-- Cuisine Section -->
+<section class="cuisine-section">
+
+    <h2>Explore by Cuisine</h2>
+
+    <div class="cuisine-list">
+        <button data-cuisine="Italian">Italian</button>
+        <button data-cuisine="North Indian">Indian</button>
+        <button data-cuisine="Chinese">Chinese</button>
+        <button data-cuisine="Healthy">Healthy</button>
+        <button data-cuisine="Fast Food">Fast Food</button>
+    </div>
+
+</section>
+
+
+    <!-- Mood Section -->
+    <section class="mood-section">
+
+        <h2>Find a Place for Your Mood</h2>
+
+        <div class="mood-list">
+    <button data-mood="Cozy">🥰 Cozy</button>
+    <button data-mood="Romantic">💕 Romantic</button>
+    <button data-mood="Peaceful">🌿 Peaceful</button>
+    <button data-mood="Lively">🎉 Lively</button>
+    </div>
+
+    </section>
+
+    <!-- Popular Restaurants -->
+    <section class="restaurant-section">
+
+        <h2>Popular Restaurants</h2>
+
+        <div id="restaurantList" class="restaurant-list">
+            <!-- Restaurant cards will be added using JavaScript -->
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Vibite. Made for food lovers.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>

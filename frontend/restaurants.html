@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Explore Restaurants - Vibite</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Vibite<span>.</span> 🍝</h1>
+
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="restaurants.html">Explore</a>
+                <a href="chatbot.html">AI Assistant</a>
+                <a href="favorites.html">Favourites ❤️</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Explore Header -->
+    <section class="explore-header">
+
+        <p class="tagline">DISCOVER YOUR NEXT FAVOURITE</p>
+
+        <h2>Explore Restaurants</h2>
+
+        <p>Find places that match your taste, budget and mood.</p>
+
+    </section>
+
+    <!-- Filters -->
+    <section class="explore-section">
+
+        <div class="filter-section">
+
+            <h3>Find your kind of food</h3>
+
+            <div class="filter-buttons">
+
+                <button class="filter-btn active" data-filter="All">All</button>
+                <button class="filter-btn" data-filter="Italian">Italian</button>
+                <button class="filter-btn" data-filter="North Indian">North Indian</button>
+                <button class="filter-btn" data-filter="Healthy">Healthy</button>
+
+            </div>
+
+            <h3>Food Preference</h3>
+
+            <div class="filter-buttons">
+
+                <button class="food-filter-btn active" data-food="All">All</button>
+                <button class="food-filter-btn" data-food="Vegetarian">Vegetarian</button>
+                <button class="food-filter-btn" data-food="Both">Veg & Non-Veg</button>
+
+            </div>
+
+        </div>
+
+        <!-- Restaurant Cards -->
+        <div class="explore-heading">
+            <h2>All Restaurants</h2>
+            <p id="restaurantCount">Loading restaurants...</p>
+        </div>
+
+        <div id="exploreRestaurantList" class="restaurant-list">
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Vibite. Made for food lovers.</p>
+    </footer>
+
+    <script src="js/restaurant.js"></script>
+
+</body>
+</html>

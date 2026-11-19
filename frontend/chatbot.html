@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vibite - AI Assistant</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Vibite<span>.</span> 🍝</h1>
+
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="restaurants.html">Explore</a>
+                <a href="chatbot.html">AI Assistant</a>
+                <a href="favorites.html">Favourites ❤️</a>
+            </div>
+        </nav>
+    </header>
+
+    
+<section class="chat-section">
+
+    <div class="chat-container">
+
+        <div class="chat-header">
+            <h2>Let's find your vibe. 🍝</h2>
+            <p>Tell me what you're craving, and I'll find the perfect place.</p>
+        </div>
+
+        <div id="chatMessages" class="chat-messages">
+
+            <div class="bot-message">
+                Hi! I'm Vibite. Tell me what kind of food, ambience or
+                experience you're looking for!
+            </div>
+
+        </div>
+
+        <div class="chat-input-area">
+
+            <input
+                type="text"
+                id="chatInput"
+                placeholder="Describe your perfect dining experience..."
+            >
+
+            <button id="sendButton">Send</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <script src="js/chatbot.js"></script>
+
+</body>
+</html>

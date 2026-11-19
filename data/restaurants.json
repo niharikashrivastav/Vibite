@@ -1,0 +1,378 @@
+
+[
+  {
+    "name": "The Italian Oven",
+    "cuisine": "Italian",
+    "food_type": "Vegetarian",
+    "price_for_two": 800,
+    "location": "Bangalore",
+    "ambience": "Cozy and romantic",
+    "description": "A cozy restaurant serving authentic Italian pasta, pizza and fresh salads.",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600",
+    "reviews": [
+      "The pasta was delicious and the ambience was lovely.",
+      "Great vegetarian options and friendly staff."
+    ],
+    "menu": [
+      {"name": "Margherita Pizza", "category": "Main Course", "food_type": "Veg", "price": 299},
+      {"name": "Alfredo Pasta", "category": "Main Course", "food_type": "Veg", "price": 349},
+      {"name": "Pesto Pasta", "category": "Main Course", "food_type": "Veg", "price": 329},
+      {"name": "Mushroom Risotto", "category": "Main Course", "food_type": "Veg", "price": 379},
+      {"name": "Garlic Bread", "category": "Starter", "food_type": "Veg", "price": 149},
+      {"name": "Cheese Bruschetta", "category": "Starter", "food_type": "Veg", "price": 199},
+      {"name": "Tiramisu", "category": "Dessert", "food_type": "Veg", "price": 199},
+      {"name": "Cold Coffee", "category": "Beverage", "food_type": "Veg", "price": 129}
+    ]
+  },
+  {
+    "name": "Spice Garden",
+    "cuisine": "North Indian",
+    "food_type": "Both",
+    "price_for_two": 600,
+    "location": "Bangalore",
+    "ambience": "Family friendly",
+    "description": "A family restaurant serving North Indian curries, biryani and freshly baked naan.",
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600",
+    "reviews": [
+      "Excellent paneer dishes and good service.",
+      "A nice place for family dinners."
+    ],
+    "menu": [
+      {"name": "Paneer Butter Masala", "category": "Main Course", "food_type": "Veg", "price": 249},
+      {"name": "Dal Makhani", "category": "Main Course", "food_type": "Veg", "price": 199},
+      {"name": "Butter Chicken", "category": "Main Course", "food_type": "Non-Veg", "price": 329},
+      {"name": "Chicken Biryani", "category": "Main Course", "food_type": "Non-Veg", "price": 299},
+      {"name": "Tandoori Roti", "category": "Starter", "food_type": "Veg", "price": 35},
+      {"name": "Veg Seekh Kebab", "category": "Starter", "food_type": "Veg", "price": 179},
+      {"name": "Gulab Jamun", "category": "Dessert", "food_type": "Veg", "price": 99},
+      {"name": "Mango Lassi", "category": "Beverage", "food_type": "Veg", "price": 89}
+    ]
+  },
+  {
+    "name": "Green Bowl",
+    "cuisine": "Healthy",
+    "food_type": "Vegetarian",
+    "price_for_two": 500,
+    "location": "Bangalore",
+    "ambience": "Minimal and peaceful",
+    "description": "A peaceful cafe offering healthy salads, smoothie bowls and fresh juices.",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600",
+    "reviews": [
+      "Fresh ingredients and healthy food.",
+      "Loved the smoothie bowls."
+    ],
+    "menu": [
+      {"name": "Quinoa Buddha Bowl", "category": "Main Course", "food_type": "Veg", "price": 249},
+      {"name": "Avocado Salad", "category": "Main Course", "food_type": "Veg", "price": 229},
+      {"name": "Paneer Protein Bowl", "category": "Main Course", "food_type": "Veg", "price": 269},
+      {"name": "Grilled Vegetable Wrap", "category": "Main Course", "food_type": "Veg", "price": 189},
+      {"name": "Hummus with Pita", "category": "Starter", "food_type": "Veg", "price": 159},
+      {"name": "Fruit Bowl", "category": "Starter", "food_type": "Veg", "price": 129},
+      {"name": "Yogurt Parfait", "category": "Dessert", "food_type": "Veg", "price": 149},
+      {"name": "Green Detox Juice", "category": "Beverage", "food_type": "Veg", "price": 119}
+    ]
+  },
+  {
+    "name": "Bella Italia",
+    "cuisine": "Italian",
+    "food_type": "Both",
+    "price_for_two": 1100,
+    "location": "Bangalore",
+    "ambience": "Elegant and romantic",
+    "description": "An elegant Italian dining spot known for wood-fired pizzas, handmade pasta and comforting Italian flavours.",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600",
+    "reviews": [
+      "The wood-fired pizza was wonderful.",
+      "Lovely place for a date night."
+    ],
+    "menu": [
+      {"name": "Four Cheese Pizza", "category": "Main Course", "food_type": "Veg", "price": 399},
+      {"name": "Arrabbiata Pasta", "category": "Main Course", "food_type": "Veg", "price": 329},
+      {"name": "Chicken Lasagna", "category": "Main Course", "food_type": "Non-Veg", "price": 429},
+      {"name": "Chicken Alfredo Pasta", "category": "Main Course", "food_type": "Non-Veg", "price": 399},
+      {"name": "Stuffed Mushrooms", "category": "Starter", "food_type": "Veg", "price": 199},
+      {"name": "Chicken Bruschetta", "category": "Starter", "food_type": "Non-Veg", "price": 249},
+      {"name": "Chocolate Lava Cake", "category": "Dessert", "food_type": "Veg", "price": 179},
+      {"name": "Italian Soda", "category": "Beverage", "food_type": "Veg", "price": 119}
+    ]
+  },
+  {
+    "name": "Royal Punjabi Dhaba",
+    "cuisine": "North Indian",
+    "food_type": "Both",
+    "price_for_two": 700,
+    "location": "Bangalore",
+    "ambience": "Rustic and lively",
+    "description": "A lively Punjabi-style restaurant serving rich curries, tandoori dishes and traditional comfort food.",
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=600",
+    "reviews": [
+      "Authentic Punjabi flavours and generous portions.",
+      "The tandoori dishes are delicious."
+    ],
+    "menu": [
+      {"name": "Shahi Paneer", "category": "Main Course", "food_type": "Veg", "price": 249},
+      {"name": "Chole Bhature", "category": "Main Course", "food_type": "Veg", "price": 179},
+      {"name": "Chicken Tikka Masala", "category": "Main Course", "food_type": "Non-Veg", "price": 329},
+      {"name": "Mutton Rogan Josh", "category": "Main Course", "food_type": "Non-Veg", "price": 399},
+      {"name": "Paneer Tikka", "category": "Starter", "food_type": "Veg", "price": 199},
+      {"name": "Chicken Seekh Kebab", "category": "Starter", "food_type": "Non-Veg", "price": 249},
+      {"name": "Kulfi", "category": "Dessert", "food_type": "Veg", "price": 99},
+      {"name": "Sweet Lassi", "category": "Beverage", "food_type": "Veg", "price": 89}
+    ]
+  },
+  {
+    "name": "Dragon Wok",
+    "cuisine": "Chinese",
+    "food_type": "Both",
+    "price_for_two": 650,
+    "location": "Bangalore",
+    "ambience": "Modern and lively",
+    "description": "A casual Chinese restaurant serving noodles, fried rice, dumplings and flavourful stir-fried dishes.",
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600",
+    "reviews": [
+      "Loved the noodles and dumplings.",
+      "Quick service and generous portions."
+    ],
+    "menu": [
+      {"name": "Veg Hakka Noodles", "category": "Main Course", "food_type": "Veg", "price": 199},
+      {"name": "Veg Fried Rice", "category": "Main Course", "food_type": "Veg", "price": 189},
+      {"name": "Chicken Schezwan Noodles", "category": "Main Course", "food_type": "Non-Veg", "price": 249},
+      {"name": "Chicken Fried Rice", "category": "Main Course", "food_type": "Non-Veg", "price": 259},
+      {"name": "Veg Spring Rolls", "category": "Starter", "food_type": "Veg", "price": 149},
+      {"name": "Chicken Momos", "category": "Starter", "food_type": "Non-Veg", "price": 179},
+      {"name": "Chocolate Spring Roll", "category": "Dessert", "food_type": "Veg", "price": 129},
+      {"name": "Lemon Iced Tea", "category": "Beverage", "food_type": "Veg", "price": 89}
+    ]
+  },
+  {
+    "name": "Wok Express",
+    "cuisine": "Chinese",
+    "food_type": "Both",
+    "price_for_two": 550,
+    "location": "Bangalore",
+    "ambience": "Casual and energetic",
+    "description": "A casual Asian eatery offering quick Chinese meals, spicy sauces, dumplings and wok-tossed favourites.",
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=600",
+    "reviews": [
+      "Great quick meals with tasty sauces.",
+      "The dumplings are worth trying."
+    ],
+    "menu": [
+      {"name": "Chilli Garlic Noodles", "category": "Main Course", "food_type": "Veg", "price": 189},
+      {"name": "Schezwan Fried Rice", "category": "Main Course", "food_type": "Veg", "price": 199},
+      {"name": "Chicken Chilli Garlic Rice", "category": "Main Course", "food_type": "Non-Veg", "price": 249},
+      {"name": "Chicken Hakka Noodles", "category": "Main Course", "food_type": "Non-Veg", "price": 239},
+      {"name": "Crispy Corn", "category": "Starter", "food_type": "Veg", "price": 139},
+      {"name": "Chicken Lollipop", "category": "Starter", "food_type": "Non-Veg", "price": 219},
+      {"name": "Honey Noodles", "category": "Dessert", "food_type": "Veg", "price": 129},
+      {"name": "Mango Cooler", "category": "Beverage", "food_type": "Veg", "price": 99}
+    ]
+  },
+  {
+    "name": "Dosa Junction",
+    "cuisine": "South Indian",
+    "food_type": "Vegetarian",
+    "price_for_two": 350,
+    "location": "Bangalore",
+    "ambience": "Traditional and family friendly",
+    "description": "A traditional South Indian eatery serving crispy dosas, idlis, uttapams and freshly prepared filter coffee.",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=600",
+    "reviews": [
+      "Crispy dosas and delicious chutneys.",
+      "A great place for breakfast."
+    ],
+    "menu": [
+      {"name": "Masala Dosa", "category": "Main Course", "food_type": "Veg", "price": 99},
+      {"name": "Rava Dosa", "category": "Main Course", "food_type": "Veg", "price": 119},
+      {"name": "Ghee Podi Idli", "category": "Main Course", "food_type": "Veg", "price": 89},
+      {"name": "Onion Uttapam", "category": "Main Course", "food_type": "Veg", "price": 109},
+      {"name": "Medu Vada", "category": "Starter", "food_type": "Veg", "price": 69},
+      {"name": "Mysore Bonda", "category": "Starter", "food_type": "Veg", "price": 79},
+      {"name": "Kesari Bath", "category": "Dessert", "food_type": "Veg", "price": 69},
+      {"name": "Filter Coffee", "category": "Beverage", "food_type": "Veg", "price": 49}
+    ]
+  },
+  {
+    "name": "Coastal Spice",
+    "cuisine": "South Indian",
+    "food_type": "Both",
+    "price_for_two": 750,
+    "location": "Bangalore",
+    "ambience": "Coastal and relaxed",
+    "description": "A coastal-inspired restaurant serving South Indian seafood, traditional curries and vegetarian regional favourites.",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=600",
+    "reviews": [
+      "The seafood curry was full of flavour.",
+      "Good variety of South Indian dishes."
+    ],
+    "menu": [
+      {"name": "Vegetable Pulao", "category": "Main Course", "food_type": "Veg", "price": 189},
+      {"name": "Paneer Ghee Roast", "category": "Main Course", "food_type": "Veg", "price": 249},
+      {"name": "Fish Curry Rice", "category": "Main Course", "food_type": "Non-Veg", "price": 329},
+      {"name": "Chicken Ghee Roast", "category": "Main Course", "food_type": "Non-Veg", "price": 299},
+      {"name": "Gobi 65", "category": "Starter", "food_type": "Veg", "price": 149},
+      {"name": "Prawn Fry", "category": "Starter", "food_type": "Non-Veg", "price": 279},
+      {"name": "Payasam", "category": "Dessert", "food_type": "Veg", "price": 99},
+      {"name": "Fresh Lime Soda", "category": "Beverage", "food_type": "Veg", "price": 69}
+    ]
+  },
+  {
+    "name": "Fresh Earth Cafe",
+    "cuisine": "Healthy",
+    "food_type": "Both",
+    "price_for_two": 650,
+    "location": "Bangalore",
+    "ambience": "Peaceful and nature-inspired",
+    "description": "A wellness-focused cafe serving balanced bowls, fresh salads, protein-rich meals and natural beverages.",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600",
+    "reviews": [
+      "Fresh and healthy meals with good portions.",
+      "A peaceful cafe with lovely food."
+    ],
+    "menu": [
+      {"name": "Chickpea Buddha Bowl", "category": "Main Course", "food_type": "Veg", "price": 229},
+      {"name": "Paneer Salad Bowl", "category": "Main Course", "food_type": "Veg", "price": 249},
+      {"name": "Grilled Chicken Bowl", "category": "Main Course", "food_type": "Non-Veg", "price": 299},
+      {"name": "Chicken Avocado Salad", "category": "Main Course", "food_type": "Non-Veg", "price": 319},
+      {"name": "Roasted Sweet Potato", "category": "Starter", "food_type": "Veg", "price": 139},
+      {"name": "Hummus Platter", "category": "Starter", "food_type": "Veg", "price": 169},
+      {"name": "Chia Pudding", "category": "Dessert", "food_type": "Veg", "price": 149},
+      {"name": "Berry Smoothie", "category": "Beverage", "food_type": "Veg", "price": 139}
+    ]
+  },
+  {
+    "name": "Burger Boulevard",
+    "cuisine": "Fast Food",
+    "food_type": "Both",
+    "price_for_two": 500,
+    "location": "Bangalore",
+    "ambience": "Lively and casual",
+    "description": "A fun burger joint serving loaded burgers, crispy fries, sandwiches and refreshing shakes.",
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600",
+    "reviews": [
+      "The burgers were juicy and delicious.",
+      "Great place for a casual meal with friends."
+    ],
+    "menu": [
+      {"name": "Veg Supreme Burger", "category": "Main Course", "food_type": "Veg", "price": 159},
+      {"name": "Paneer Burger", "category": "Main Course", "food_type": "Veg", "price": 179},
+      {"name": "Classic Chicken Burger", "category": "Main Course", "food_type": "Non-Veg", "price": 199},
+      {"name": "Crispy Chicken Burger", "category": "Main Course", "food_type": "Non-Veg", "price": 219},
+      {"name": "Peri Peri Fries", "category": "Starter", "food_type": "Veg", "price": 99},
+      {"name": "Cheese Garlic Toast", "category": "Starter", "food_type": "Veg", "price": 119},
+      {"name": "Brownie with Ice Cream", "category": "Dessert", "food_type": "Veg", "price": 149},
+      {"name": "Chocolate Milkshake", "category": "Beverage", "food_type": "Veg", "price": 129}
+    ]
+  },
+  {
+    "name": "Pizza Planet",
+    "cuisine": "Fast Food",
+    "food_type": "Both",
+    "price_for_two": 700,
+    "location": "Bangalore",
+    "ambience": "Fun and vibrant",
+    "description": "A vibrant casual dining spot offering cheesy pizzas, pasta, sides and quick comfort food.",
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=600",
+    "reviews": [
+      "The pizza had a great crust and toppings.",
+      "Good place for sharing food with friends."
+    ],
+    "menu": [
+      {"name": "Farmhouse Pizza", "category": "Main Course", "food_type": "Veg", "price": 279},
+      {"name": "Paneer Tikka Pizza", "category": "Main Course", "food_type": "Veg", "price": 319},
+      {"name": "BBQ Chicken Pizza", "category": "Main Course", "food_type": "Non-Veg", "price": 369},
+      {"name": "Chicken Pepperoni Pizza", "category": "Main Course", "food_type": "Non-Veg", "price": 399},
+      {"name": "Cheesy Garlic Bread", "category": "Starter", "food_type": "Veg", "price": 149},
+      {"name": "Potato Wedges", "category": "Starter", "food_type": "Veg", "price": 119},
+      {"name": "Chocolate Mousse", "category": "Dessert", "food_type": "Veg", "price": 139},
+      {"name": "Strawberry Shake", "category": "Beverage", "food_type": "Veg", "price": 129}
+    ]
+  },
+  {
+    "name": "Casa Mexicana",
+    "cuisine": "Mexican",
+    "food_type": "Both",
+    "price_for_two": 850,
+    "location": "Bangalore",
+    "ambience": "Colourful and lively",
+    "description": "A colourful Mexican restaurant serving tacos, burritos, quesadillas and flavourful Mexican street food.",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=600",
+    "reviews": [
+      "The tacos were fresh and full of flavour.",
+      "Loved the lively atmosphere and food variety."
+    ],
+    "menu": [
+      {"name": "Bean and Cheese Burrito", "category": "Main Course", "food_type": "Veg", "price": 229},
+      {"name": "Veggie Quesadilla", "category": "Main Course", "food_type": "Veg", "price": 249},
+      {"name": "Chicken Burrito", "category": "Main Course", "food_type": "Non-Veg", "price": 299},
+      {"name": "Chicken Tacos", "category": "Main Course", "food_type": "Non-Veg", "price": 279},
+      {"name": "Nachos with Salsa", "category": "Starter", "food_type": "Veg", "price": 169},
+      {"name": "Corn Cheese Balls", "category": "Starter", "food_type": "Veg", "price": 149},
+      {"name": "Churros", "category": "Dessert", "food_type": "Veg", "price": 139},
+      {"name": "Virgin Mojito", "category": "Beverage", "food_type": "Veg", "price": 119}
+    ]
+  },
+  {
+    "name": "Sakura Sushi House",
+    "cuisine": "Japanese",
+    "food_type": "Both",
+    "price_for_two": 1200,
+    "location": "Bangalore",
+    "ambience": "Minimal and elegant",
+    "description": "A Japanese-inspired restaurant offering sushi, ramen, rice bowls and delicate Asian desserts.",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=600",
+    "reviews": [
+      "Beautiful presentation and fresh flavours.",
+      "The ramen and sushi were excellent."
+    ],
+    "menu": [
+      {"name": "Vegetable Sushi Roll", "category": "Main Course", "food_type": "Veg", "price": 299},
+      {"name": "Tofu Teriyaki Bowl", "category": "Main Course", "food_type": "Veg", "price": 329},
+      {"name": "Chicken Ramen", "category": "Main Course", "food_type": "Non-Veg", "price": 399},
+      {"name": "Chicken Teriyaki Bowl", "category": "Main Course", "food_type": "Non-Veg", "price": 379},
+      {"name": "Edamame", "category": "Starter", "food_type": "Veg", "price": 169},
+      {"name": "Chicken Gyoza", "category": "Starter", "food_type": "Non-Veg", "price": 229},
+      {"name": "Mochi Ice Cream", "category": "Dessert", "food_type": "Veg", "price": 179},
+      {"name": "Matcha Iced Tea", "category": "Beverage", "food_type": "Veg", "price": 149}
+    ]
+  },
+  {
+    "name": "Seoul Kitchen",
+    "cuisine": "Korean",
+    "food_type": "Both",
+    "price_for_two": 950,
+    "location": "Bangalore",
+    "ambience": "Trendy and vibrant",
+    "description": "A Korean-inspired kitchen serving rice bowls, noodles, savoury pancakes and popular Korean comfort food.",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?w=600",
+    "reviews": [
+      "Loved the Korean flavours and variety.",
+      "The rice bowls were filling and delicious."
+    ],
+    "menu": [
+      {"name": "Vegetable Bibimbap", "category": "Main Course", "food_type": "Veg", "price": 279},
+      {"name": "Kimchi Fried Rice", "category": "Main Course", "food_type": "Veg", "price": 249},
+      {"name": "Korean Chicken Rice Bowl", "category": "Main Course", "food_type": "Non-Veg", "price": 329},
+      {"name": "Spicy Chicken Noodles", "category": "Main Course", "food_type": "Non-Veg", "price": 299},
+      {"name": "Vegetable Mandu", "category": "Starter", "food_type": "Veg", "price": 169},
+      {"name": "Korean Fried Chicken Bites", "category": "Starter", "food_type": "Non-Veg", "price": 249},
+      {"name": "Hotteok Pancake", "category": "Dessert", "food_type": "Veg", "price": 149},
+      {"name": "Korean Citron Tea", "category": "Beverage", "food_type": "Veg", "price": 119}
+    ]
+  }
+]
